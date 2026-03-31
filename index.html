@@ -1056,12 +1056,13 @@
   function openWotNot() {
   if (window.wotnotChatbot) {
     window.wotnotChatbot.open();
+  } else {
+    console.log("WotNot not loaded yet");
   }
- }
- console.log(window.wotnotChatbot);
+}
 
 </script>
 
-<script src="https://app.wotnot.io/chat-widget/5vhXtcdzKMA6063150392177jXb8KFEs.js" defer></script>
+<script src="https://app.wotnot.io/chat-widget/5vhXtcdzKMA6063150392177jXb8KFEs.js"></script>
 </body>
 </html>
